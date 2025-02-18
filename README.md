@@ -1,49 +1,101 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with
-[`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js Boilerplate 🚀
 
-## Getting Started
+🌟 Un boilerplate moderno de Next.js con TypeScript y herramientas de desarrollo optimizadas.
 
-First, run the development server:
+## Características Principales 📋
+
+✨ **Framework**
+
+- Next.js 15.x (App Router compatible)
+- React 19.x (con soporte completo para Server Components)
+- TypeScript 5.x (con inferencia avanzada)
+
+🛠️ **Herramientas y Configuraciones**
+
+- ESLint con múltiples plugins especializados (unicorn, playwright)
+- Prettier 3.x optimizado para Tailwind CSS 4.x
+- Husky 8.x para validación automática de commits
+- Commitlint basado en convenciones estándar
+- Configuración completa para desarrollo profesional
+
+## Uso del Boilerplate 📚
+
+Para crear un nuevo proyecto basado en este boilerplate:
+
+1. Haz clic en el botón "Use this template"
+2. Selecciona tu usuario y nombre del repositorio
+3. Clona el nuevo repositorio:
+
+```bash
+git clone https://github.com/facundocont/nextjs-boilerplate.git
+cd nextjs-boilerplate
+```
+
+4. Instala las dependencias:
+
+```bash
+npm install
+```
+
+5. Configura Husky:
+
+```bash
+npm run prepare
+```
+
+6. Comienza a desarrollar:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the
-result.
+## Guía de Commits 📝
 
-You can start editing the page by modifying `app/page.tsx`. The page
-auto-updates as you edit the file.
+Para hacer commits consistentes con nuestro estándar:
 
-This project uses
-[`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts)
-to automatically optimize and load [Geist](https://vercel.com/font), a new font
-family for Vercel.
+1. Prepara tus cambios:
 
-## Learn More
+```bash
+git add .
+```
 
-To learn more about Next.js, take a look at the following resources:
+2. Realiza el commit:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js
-  features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+git commit -m "tipo(scope?): descripción
 
-You can check out
-[the Next.js GitHub repository](https://github.com/vercel/next.js) - your
-feedback and contributions are welcome!
+cuerpo opcional..."
+```
 
-## Deploy on Vercel
+Este comando abrirá una interfaz interactiva que te guiará a través del proceso.
 
-The easiest way to deploy your Next.js app is to use the
-[Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme)
-from the creators of Next.js.
+3. Sigue el formato:
 
-Check out our
-[Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying)
-for more details.
+```
+tipo(scope?): descripción
+
+cuerpo opcional...
+```
+
+Donde tipo puede ser:
+
+- feat para nuevas características
+- fix para correcciones de bugs
+- docs para cambios en documentación
+- style para formateo de código
+- refactor para mejoras de código
+- test para agregar pruebas
+- chore para otros cambios misceláneos
+
+## Atribuciones 🙏
+
+Este boilerplate fue creado siguiendo la guía detallada de [React Squad](https://www.reactsquad.io/blog/how-to-set-up-next-js-15-for-production). Recomiendo encarecidamente su contenido para cualquier desarrollador que desee configurar un proyecto Next.js 15 para producción. Su guía proporciona una base sólida y actualizada para comenzar proyectos profesionales.
+
+## Contribuciones 👥
+
+Las contribuciones son bienvenidas. Para contribuir:
+
+1. Crea una nueva rama desde main
+2. Realiza tus cambios
+3. Asegúrate que pasa las pruebas
+4. Abre un pull request
